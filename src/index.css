@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-background: #0b0b0f;
+  --color-secondary-background: #111217;
+  --color-card: #181a20;
+  --color-text: #f5f5f5;
+  --color-secondary-text: #a5a7b3;
+  --color-accent: #3b82f6;
+
+
+  /* Fonts  */
+  --font-heading: "Geist", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body{
+  background-color: #0b0b0f;
+}
+
