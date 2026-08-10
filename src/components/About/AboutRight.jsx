@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutRight = () => {
   return (
-    <div className=" py-10 pr-35">
+    <div className=" py-10 pr-10 md:pr-10 lg:pr-35 px-2 w-full md:w-full">
       <p className="text-text font-body leading-relaxed border-l-2 border-accent px-5">
         I'm a MERN Stack Developer who enjoys turning ideas into practical,
         user-focused web applications. I care about writing clean, maintainable

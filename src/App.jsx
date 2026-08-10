@@ -11,10 +11,10 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='overflow-hidden p-0'>
       <Hero/>
-      {/* <About/>
-      <Projects/>
+      <About/>
+      {/* <Projects/>
       <Skills/>
       <Experience/>
       <Contact/>
