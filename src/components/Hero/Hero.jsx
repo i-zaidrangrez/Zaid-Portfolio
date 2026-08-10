@@ -5,9 +5,9 @@ import HeroRight from './HeroRight'
 
 const Hero = () => {
   return (
-    <div className='h-screen w-full'>
+    <div className='h-fit w-full md:h-screen'>
         <Navbar/>
-        <div className='flex h-9/10 py-2'>
+        <div className='flex h-fit py-2 w-full flex-wrap items-center justify-between px-10'>
             <HeroLeft/>
             <HeroRight/>
         </div>
