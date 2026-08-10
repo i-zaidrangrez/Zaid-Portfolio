@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="h-[80vh] w-full px-10">
+    <div className="h-fit w-full px-2 mt-10 md:px-10">
       <div className="h-2/10  w-full flex flex-col gap-2 justify-center">
         <h1 className="text-accent font-heading text-5xl uppercase">
           CONTACT
@@ -16,15 +16,15 @@ const Contact = () => {
           Let's Build something together
         </p>
       </div>
-      <div className="h-7/10 w-full flex items-center justify-center">
-        <div className="h-full w-1/2 p-10 text-text font-body flex flex-col gap-5">
+      <div className="h-full w-full flex items-center justify-between px-2 md:px-10 flex-wrap">
+        <div className="h-full w-fit p-2 py-10 md:p-10 text-text font-body flex flex-col gap-5">
             <div className="flex gap-5 text-xl items-center"><MdEmail/><a className="text-accent font-heading cursor-pointer" href="mailto:zaidrangrez.me@gmail.com">zaidrangrez.me@email.com</a></div>
             <div className="flex gap-5 text-xl items-center"><GrGithub/><a className="text-accent font-heading cursor-pointer" href="https://github.com/i-zaidrangrez">GitHub Profile</a></div>
             <div className="flex gap-5 text-xl items-center"><FaMapLocationDot/><a className="text-accent font-heading cursor-pointer" href="https://share.google/Aenwt9uIwR5k3ZMoX">Rajasthan , India</a></div>
             <div className="flex gap-5 text-xl items-center"><LiaLinkedin/><a className="text-accent font-heading cursor-pointer" href="https://linkedin.com/in/zaidrangrez">LinkedIn Profile</a></div>
         </div>
-        <div className="h-full w-1/2 flex items-center">
-         <img src="/Map.png" alt="" />
+        <div className="h-full w-full md:w-1/2 flex items-center">
+         <img className="h-full w-full" src="/Map.png" alt="" />
         </div>
       </div>
     </div>

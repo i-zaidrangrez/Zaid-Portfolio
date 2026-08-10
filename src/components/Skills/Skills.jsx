@@ -61,8 +61,8 @@ const Skills = () => {
       </div>
 
       {/* SKILL CARDS  */}
-      <div className="flex h-full w-full gap-3 flex-wrap">
-        <div className="border border-text rounded h-full w-32/100">
+      <div className="flex h-full w-full gap-10 mt-10 px-3 md:gap-3 flex-wrap md:px-0">
+        <div className="border border-text rounded h-full w-full md:w-32/100">
           <div className="h-20 w-full ">
             <h1 className="h-full w-full font-heading text-accent flex items-center justify-center text-2xl">
               FRONTEND
@@ -80,7 +80,7 @@ const Skills = () => {
             })}
           </div>
         </div>
-        <div className="border border-text rounded h-full w-32/100">
+        <div className="border border-text rounded h-full w-full md:w-32/100">
           <div className="h-20 w-full ">
             <h1 className="h-full w-full font-heading text-accent flex items-center justify-center text-2xl">
               BACKEND / DATABASE
@@ -107,7 +107,7 @@ const Skills = () => {
             })}
           </div>
         </div>
-        <div className="border border-text rounded h-full w-32/100">
+        <div className="border border-text rounded h-full w-full md:w-32/100">
           <div className="h-20 w-full ">
             <h1 className="h-full w-full font-heading text-accent flex items-center justify-center text-2xl">
               TOOLS

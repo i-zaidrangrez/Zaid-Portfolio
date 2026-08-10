@@ -14,11 +14,11 @@ const App = () => {
     <div className='overflow-hidden p-0'>
       <Hero/>
       <About/>
-      {/* <Projects/>
+      <Projects/>
       <Skills/>
       <Experience/>
       <Contact/>
-      <Footer/> */}
+      <Footer/>
     </div>
   )
 }

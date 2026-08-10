@@ -7,9 +7,9 @@ import { MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="h-20 w-full bg-secondary-background flex items-center justify-between text-secondary-text px-20">
-      <div> &copy; 2026 Zaid &middot; All Rights Reserved</div>
-      <div className="flex items-center gap-2 text-sm">
+    <div className="h-full w-full bg-secondary-background flex items-center justify-between text-secondary-text px-10 flex-wrap py-4 gap-4">
+      <div className="text-xs md:text-sm lg:text-lg"> &copy; 2026 Zaid &middot; All Rights Reserved</div>
+      <div className="flex items-center gap-2 text-xs md:text-sm lg:text-lg">
         <FaBiohazard size={20} /> BUILT WITH PASSION
       </div>
       <div className="flex items-center gap-2">

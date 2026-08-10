@@ -8,7 +8,7 @@ const ExperienceCard = (props) => {
         {props.elem.year}
       </div>
       {/* main  */}
-      <div className="w-3/5 px-3 border-l-2 font-body border-accent flex flex-col gap-10">
+      <div className="w-full md:w-3/5 px-3 border-l-2 font-body border-accent flex flex-col gap-10">
       {/* heading  */}
         <div>
           <h1 className="font-heading text-accent text-3xl">{props.elem.role}</h1>

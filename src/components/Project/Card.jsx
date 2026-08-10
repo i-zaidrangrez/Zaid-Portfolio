@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Card = () => {
   return (
-    <div className="border border-text rounded h-[80vh] w-495/1000">
+    <div className="border border-text rounded h-[80vh] w-full lg:w-495/1000">
       <div className="h-1/2 w-full"></div>
       <div className="text-text font-heading flex items-center px-5 text-2xl w-full h-1/10 ">
         HEADING

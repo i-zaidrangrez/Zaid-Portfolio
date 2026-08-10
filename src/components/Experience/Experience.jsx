@@ -45,7 +45,7 @@ const Experience = () => {
     },
   ];
   return (
-    <div className="h-full flex flex-col px-10 gap-20">
+    <div className="h-full flex flex-col px-2 md:px-10 gap-20">
       <div className="h-2/10  w-full flex flex-col gap-2 justify-center">
         <h1 className="text-accent font-heading text-5xl uppercase">
           EXPERIENCE
@@ -54,7 +54,7 @@ const Experience = () => {
           WHERE I'VE BEEN LEARNING & BUILDING?
         </p>
       </div>
-      <div className="h-8/10 flex flex-col gap-10 w-9/10 px-10 py-5">
+      <div className="h-8/10 flex flex-col gap-10 w-95/100 px-10 py-5">
         {experiences.map((elem) => {
           return <ExperienceCard elem={elem} />;
         })}
