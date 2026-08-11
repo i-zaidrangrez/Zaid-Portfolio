@@ -19,7 +19,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/zaidrangrez">
           <LiaLinkedin size={25} />
         </a>
-        <a href="mailto:zaidrangrez.me@gmail.com">
+        <a href="mail.google.com/mail/?view=cm&fs=1&to=zaidrangrez.me@gmail.com">
           <MdMail size={25} />
         </a>
       </div>

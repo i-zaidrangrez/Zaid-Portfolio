@@ -23,33 +23,123 @@ import { VscServerProcess } from "react-icons/vsc";
 import { BsOpenai } from "react-icons/bs";
 
 export const frontendSkills = [
-  { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
-  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
-  { name: "React", icon: SiReact, color: "#61DAFB" },
-  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-  { name: "Redux Toolkit", icon: SiRedux, color: "#764ABC" },
-  { name: "GSAP", icon: SiGsap, color: "#88CE02" },
+  {
+    name: "HTML5",
+    icon: SiHtml5,
+    color: "#E34F26",
+    docs: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    name: "JavaScript",
+    icon: SiJavascript,
+    color: "#F7DF1E",
+    docs: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "React",
+    icon: SiReact,
+    color: "#61DAFB",
+    docs: "https://react.dev/",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: SiTailwindcss,
+    color: "#06B6D4",
+    docs: "https://tailwindcss.com/docs",
+  },
+  {
+    name: "Redux Toolkit",
+    icon: SiRedux,
+    color: "#764ABC",
+    docs: "https://redux-toolkit.js.org/",
+  },
+  {
+    name: "GSAP",
+    icon: SiGsap,
+    color: "#88CE02",
+    docs: "https://gsap.com/docs/v3/",
+  },
 ];
 
 export const backendSkills = [
-  { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
-  { name: "Express.js", icon: SiExpress, color: "#FFFFFF" },
-  { name: "REST APIs", icon: VscServerProcess, color: "#ffffff" },
-  { name: "JWT", icon: SiJsonwebtokens, color: "#ffffff" },
+  {
+    name: "Node.js",
+    icon: SiNodedotjs,
+    color: "#339933",
+    docs: "https://nodejs.org/docs/latest/api/",
+  },
+  {
+    name: "Express.js",
+    icon: SiExpress,
+    color: "#FFFFFF",
+    docs: "https://expressjs.com/",
+  },
+  {
+    name: "REST APIs",
+    icon: VscServerProcess,
+    color: "#FFFFFF",
+    docs: "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+  },
+  {
+    name: "JWT",
+    icon: SiJsonwebtokens,
+    color: "#FFFFFF",
+    docs: "https://www.rfc-editor.org/rfc/rfc7519",
+  },
 ];
 
 export const databaseSkills = [
-  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-  { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+    color: "#47A248",
+    docs: "https://www.mongodb.com/docs/",
+  },
+  {
+    name: "MySQL",
+    icon: SiMysql,
+    color: "#4479A1",
+    docs: "https://dev.mysql.com/doc/",
+  },
 ];
 
 export const toolsSkills = [
-  { name: "Git", icon: SiGit, color: "#F05032" },
-  { name: "GitHub", icon: SiGithub, color: "#FFFFFF" },
-  { name: "Postman", icon: SiPostman, color: "#FF6C37" },
-  { name: "Vite", icon: SiVite, color: "#646CFF" },
-  { name: "OpenAI", icon: BsOpenai, color: "#FFFFFF" },
- { name: "GitHub Copilot", icon: SiGithubcopilot, color: "#FFFFFF" }
+  {
+    name: "Git",
+    icon: SiGit,
+    color: "#F05032",
+    docs: "https://git-scm.com/doc",
+  },
+  {
+    name: "GitHub",
+    icon: SiGithub,
+    color: "#FFFFFF",
+    docs: "https://docs.github.com/",
+  },
+  {
+    name: "Postman",
+    icon: SiPostman,
+    color: "#FF6C37",
+    docs: "https://learning.postman.com/docs/",
+  },
+  {
+    name: "Vite",
+    icon: SiVite,
+    color: "#646CFF",
+    docs: "https://vite.dev/guide/",
+  },
+  {
+    name: "OpenAI",
+    icon: BsOpenai,
+    color: "#FFFFFF",
+    docs: "https://platform.openai.com/docs/",
+  },
+  {
+    name: "GitHub Copilot",
+    icon: SiGithubcopilot,
+    color: "#FFFFFF",
+    docs: "https://docs.github.com/en/copilot",
+  },
 ];
 
 const Skills = () => {
@@ -75,6 +165,7 @@ const Skills = () => {
                   name={elem.name}
                   icon={<elem.icon />}
                   color={elem.color}
+                  link={elem.docs}
                 />
               );
             })}
@@ -93,6 +184,7 @@ const Skills = () => {
                   name={elem.name}
                   icon={<elem.icon />}
                   color={elem.color}
+                  link={elem.docs}
                 />
               );
             })}
@@ -102,6 +194,7 @@ const Skills = () => {
                   name={elem.name}
                   icon={<elem.icon />}
                   color={elem.color}
+                  link={elem.docs}
                 />
               );
             })}
@@ -120,6 +213,7 @@ const Skills = () => {
                   name={elem.name}
                   icon={<elem.icon />}
                   color={elem.color}
+                  link={elem.docs}
                 />
               );
             })}

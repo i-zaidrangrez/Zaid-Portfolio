@@ -19,10 +19,10 @@ const HeroLeft = () => {
         </p>
       </div>
       <div className="flex w-full gap-5 flex-col sm:flex-row">
-        <button className="font-heading text-text border border-text rounded-2xl px-3 py-2 flex gap-3">
+        <button className="w-fit font-heading text-text border border-text rounded-2xl px-3 py-2 flex gap-3">
           View Projects <ArrowRight />
         </button>
-        <button className="font-heading text-text border border-text rounded-2xl px-3 py-2 flex gap-3">
+        <button className="w-fit font-heading text-text border border-text rounded-2xl px-3 py-2 flex gap-3">
           Contact Me <Mail />
         </button>
       </div>
