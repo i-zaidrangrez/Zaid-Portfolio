@@ -45,7 +45,7 @@ const Experience = () => {
     },
   ];
   return (
-    <div className="h-full flex flex-col px-2 md:px-10 gap-20">
+    <div id="Experience" className="h-full scroll-mt-20 flex flex-col px-2 md:px-10 gap-20">
       <div className="h-2/10  w-full flex flex-col gap-2 justify-center">
         <h1 className="text-accent font-heading text-5xl uppercase">
           EXPERIENCE

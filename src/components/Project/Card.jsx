@@ -15,19 +15,19 @@ const Card = (Props) => {
         {Props.elem.description}
       </div>
       <div className="px-5 flex gap-2">
-        <button className="border border-text rounded-sm px-3 py-1 text-text">
+        <button className="border border-text rounded-sm px-3 py-1 text-background bg-secondary-text font-heading">
           {Props.elem.techStack}
         </button>
-        <button className={`border border-text rounded-sm ${Props.elem.color} px-3 py-1 text-text relative`}>
+        <button className={`border border-text rounded-sm ${Props.elem.color} font-heading px-3 py-1 text-text relative`}>
           {Props.elem.status}
           <div className={`h-[25%] w-[10%] absolute top-[20%] right-[5%] rounded-full`}></div>
         </button>
       </div>
       <div className="h-1/10 w-full flex py-2 px-5 justify-end gap-10 mb-5">
-        <a href={Props.elem.github} className="border border-accent px-3 rounded-2xl text-text flex items-center justify-center gap-3">
+        <a href={Props.elem.github} className="border border-accent px-3 rounded-2xl text-secondary-background bg-text font-heading flex items-center justify-center gap-3">
           GITHUB <FaGithub />
         </a>
-        <a href={Props.elem.live} className="border border-accent px-3 rounded-2xl text-text flex items-center justify-center gap-3">
+        <a href={Props.elem.live} className="border border-accent px-3 rounded-2xl text-background bg-text font-heading flex items-center justify-center gap-3">
           GO LIVE <Radio />
         </a>
       </div>

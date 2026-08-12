@@ -144,7 +144,7 @@ export const toolsSkills = [
 
 const Skills = () => {
   return (
-    <div className="h-full w-full">
+    <div id="Skills" className="h-full w-full scroll-mt-20">
       <div className="h-30  w-full flex flex-col gap-2 justify-center px-10">
         <h1 className="text-accent font-heading text-5xl uppercase">Skills</h1>
         <p className="text-text font-body italic">TECHNOLOGIES I WORK WITH</p>
