@@ -35,10 +35,10 @@ const Contact = () => {
         </div>
         <div className="h-full w-full md:w-1/2 flex">
             <div className="h-[50vh] w-full mb-5">
-              <form className="h-full w-full flex flex-col gap-5" action="https://formspree.io/f/xvkproaa" method="POST" onSubmit={(e)=>{HandleSubmit(e)}}>
-                <input className="border bg-secondary-text placeholder:text-black w-full border-text placeholder:font-heading flex items-start justify-start rounded-3xl px-10 py-3" type="text" placeholder="Full Name" name="name" onChange={(e)=>{setName(e.target.value)}} value={name} required />
-                <input className="border bg-secondary-text placeholder:text-black w-full border-text placeholder:font-heading flex items-start justify-start rounded-3xl px-10 py-3" type="email" placeholder="Email" name="email" onChange={(e)=>{setEmail(e.target.value)}} value={email} required />
-                <input className="border bg-secondary-text placeholder:text-black w-full border-text placeholder:font-heading flex items-start justify-start rounded-3xl px-10 py-13" type="textarea" placeholder="message" name="message" onChange={(e)=>{setMessage(e.target.value)}} value={message} required />
+              <form className="h-full w-full flex flex-col gap-5" action="https://formspree.io/f/xvkproaa" method="POST">
+                <input className="border bg-secondary-text placeholder:text-black w-full border-text placeholder:font-heading flex items-start justify-start rounded-3xl px-10 py-3" type="text" placeholder="Full Name" name="name"  required />
+                <input className="border bg-secondary-text placeholder:text-black w-full border-text placeholder:font-heading flex items-start justify-start rounded-3xl px-10 py-3" type="email" placeholder="Email" name="email"  required />
+                <input className="border bg-secondary-text placeholder:text-black w-full border-text placeholder:font-heading flex items-start justify-start rounded-3xl px-10 py-13" type="textarea" placeholder="message" name="message" required />
                 <button className="w-fit ml-5 flex font-heading items-center justify-center bg-accent text-text py-2 px-2 gap-2 rounded shadow-2xl shadow-black" type="submit">Send Message <RiSendPlaneFill /></button>
               </form>
             </div>
