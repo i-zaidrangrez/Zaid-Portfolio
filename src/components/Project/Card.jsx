@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Card = (Props) => {
   return (
-    <div className="border border-text rounded h-[90vh] w-full lg:w-495/1000 pb-5">
+    <div className="shadow-md drop-shadow-secondary-background overflow-hidden shadow-white rounded h-[90vh] w-full lg:w-495/1000 pb-5 hover:scale-103 duration-300">
       <div className="h-1/2 w-full">
         <img className="h-full w-full" src={Props.elem.image} alt="" />
       </div>
