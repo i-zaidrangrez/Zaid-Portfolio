@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className='h-fit w-full md:h-fit mb-10 relative'>
         <Navbar timeline={timeline} />
-        <div className='flex h-fit py-2 w-full flex-wrap items-center justify-between px-10'>
+        <div className='flex h-fit py-2 w-full flex-wrap items-center justify-between px-2'>
             <HeroLeft timeline={timeline} />
             <HeroRight timeline={timeline} />
         </div>

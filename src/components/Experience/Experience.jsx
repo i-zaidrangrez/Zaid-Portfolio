@@ -4,7 +4,7 @@ import ExperienceCard from "./ExperienceCard";
 const Experience = () => {
   const experiences = [
     {
-      year: "2026 (Present)",
+      year: "2026",
       role: "MERN Stack Developer",
       type: "Independent / Personal Projects",
       description:
@@ -54,7 +54,7 @@ const Experience = () => {
           WHERE I'VE BEEN LEARNING & BUILDING?
         </p>
       </div>
-      <div className="h-8/10 flex flex-col gap-10 w-95/100 px-10 py-5">
+      <div className="h-8/10 flex flex-col gap-10 w-95/100 px-2 py-5">
         {experiences.map((elem) => {
           return <ExperienceCard elem={elem} />;
         })}
