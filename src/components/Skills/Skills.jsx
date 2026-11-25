@@ -222,7 +222,7 @@ const Skills = () => {
       </div>
       
       <div className="h-[20vh] w-full flex items-start justify-center italic py-20 pb-40">
-        <h1 className="text-secondary-text text-2xl font-body">And more i love working with ~</h1>
+        <h1 className="text-secondary-text text-xl font-body">And more i love working with ~</h1>
       </div>
     </div>
   );
